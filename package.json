@@ -1,0 +1,21 @@
+{
+    "name": "bananabread",
+    "displayName": "BananaBread",
+    "description": "BananaBread-like experience on vscode",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "justive",
+                "uiTheme": "vs-dark",
+                "path": "./themes/justive-color-theme.json"
+            }
+        ]
+    }
+}
